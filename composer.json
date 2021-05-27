@@ -1,0 +1,24 @@
+{
+    "name": "tmhcevi/smarty",
+    "description": "This package lets you run Smarty3 on Laravel 8 elegantly.",
+    "keywords": ["L8", "Laravel 8", "Laravel", "Smarty", "Smarty 3", "View", "Templating"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TMH Cevi"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": "8.*",
+        "illuminate/cache": "8.*",
+        "illuminate/config": "8.*",
+        "smarty/smarty": "3.*@stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tmhcevi\\Smarty\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

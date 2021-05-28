@@ -28,6 +28,6 @@
             "dont-discover": [
             ]
         }
-    }
+    },
     "minimum-stability": "stable"
 }

@@ -23,12 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Tmhcevi\\Smarty\\": "src"
+            "App\\": "app/",
+            "Tmhcevi\\Smarty\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tmhcevi\\Smarty\\\\Tests\\": "tests"
+            "Tmhcevi\\Smarty\\Tests\\": "tests"
         }
     },
     "scripts": {

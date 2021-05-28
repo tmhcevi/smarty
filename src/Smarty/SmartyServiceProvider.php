@@ -21,7 +21,7 @@ class SmartyServiceProvider extends ServiceProvider
 	public function boot()
 	{
 		$this->publishes([
-			__DIR__ . '/../../config/config.php' => config_path('tmhcevi-smarty.php')
+			__DIR__ . '/../config/config.php' => config_path('tmhcevi-smarty.php')
 		]);
 	}
 
@@ -32,7 +32,7 @@ class SmartyServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->mergeConfigFrom(__DIR__ . '/../../config/config.php', 'tmhcevi-smarty');
+		$this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'tmhcevi-smarty');
 
 		$this->app['view']->addExtension($this->app['config']->get('tmhcevi-smarty.extension', 'tpl'), 'smarty', function ()
 		{

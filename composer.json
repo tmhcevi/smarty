@@ -17,8 +17,17 @@
     },
     "autoload": {
         "psr-0": {
-            "Tmhcevi\\Smarty\\": "src/"
+            "Tmhcevi\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tmhcevi\\Smarty\\SmartyServiceProvider"
+            ],
+            "dont-discover": [
+            ]
+        }
+    }
     "minimum-stability": "stable"
 }

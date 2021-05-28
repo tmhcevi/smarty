@@ -2,10 +2,10 @@
 namespace Tmhcevi\Smarty;
 
 use Illuminate\View;
-use Illuminate\View\Engines;
+use Illuminate\Contracts\View\Engine as EngineInterface;
 use Illuminate\View\Compilers\CompilerInterface;
 
-class SmartyEngine implements Engines\EngineInterface
+class SmartyEngine implements EngineInterface
 {
 
 	protected $config;

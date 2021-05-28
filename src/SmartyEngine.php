@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tmhcevi\Smarty;
+namespace Tmh\Smarty;
 
 use Illuminate\View;
 use Illuminate\Contracts\View\Engine as EngineInterface;
@@ -104,7 +104,7 @@ class SmartyEngine implements EngineInterface
      */
     protected function config($key, $default = null)
     {
-        $configKey = 'tmhcevi-smarty.';
+        $configKey = 'tmh-smarty.';
         return $this->config->get($configKey . $key, $default);
     }
 }

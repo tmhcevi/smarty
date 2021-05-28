@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Erickpatrick\\SampleLaravelPackage\\": "src"
+            "Tmhcevi\\Smarty\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Erickpatrick\\SampleLaravelPackage\\Tests\\": "tests"
+            "Tmhcevi\\Smarty\\\\Tests\\": "tests"
         }
     },
     "scripts": {
